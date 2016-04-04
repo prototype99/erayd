@@ -13,6 +13,8 @@ LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64"
 IUSE=""
+DEPEND=">=dev-python/ruamel-ordereddict-0.4.9[${PYTHON_USEDEP}]"
+RDEPEND="${DEPEND}"
 S="${WORKDIR}/ruamel.yaml-${PV}"
 
 python_install() {
