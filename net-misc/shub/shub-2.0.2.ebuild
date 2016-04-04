@@ -14,6 +14,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 IUSE=""
 DEPEND="
+  dev-python/pip[${PYTHON_USEDEP}]
   >=dev-python/click-6.2[${PYTHON_USEDEP}]
   >=dev-python/hubstorage-0.22.0[${PYTHON_USEDEP}]
   >=dev-python/requests-2.9.1[${PYTHON_USEDEP}]
