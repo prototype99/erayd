@@ -13,8 +13,6 @@ LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64"
 IUSE=""
-DEPEND="dev-lang/python[${PYTHON_USEDEP}]"
-RDEPEND="${DEPEND}"
 S="${WORKDIR}/ruamel.yaml-${PV}"
 
 python_install() {

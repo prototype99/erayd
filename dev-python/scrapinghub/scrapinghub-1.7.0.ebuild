@@ -13,9 +13,6 @@ LICENSE="scrapinghub"
 SLOT="0"
 KEYWORDS="~amd64"
 IUSE=""
-DEPEND="
-  dev-lang/python[${PYTHON_USEDEP}]
-  >=dev-python/requests-2.9.1[${PYTHON_USEDEP}]
-"
+DEPEND=">=dev-python/requests-2.9.1[${PYTHON_USEDEP}]"
 RDEPEND="${DEPEND}"
 S="${WORKDIR}/python-${P}"
