@@ -5,7 +5,7 @@
 EAPI="6"
 DESCRIPTION="Graphical development / admin tool for many popular database engines."
 HOMEPAGE="http://dbeaver.jkiss.org/"
-SRC_URI="http://dbeaver.jkiss.org/files/3.6.3/dbeaver-ce-3.6.3-linux.gtk.x86_64.tar.gz"
+SRC_URI="http://dbeaver.jkiss.org/files/${PV}/dbeaver-ce-${PV}-linux.gtk.x86_64.tar.gz"
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64"
