@@ -1,0 +1,2 @@
+# masked due to critical bug - see http://dbeaver.jkiss.org/2016/04/14/dbeaver-3-6-5/
+=dev-db/dbeaver-bin-3.6.4
