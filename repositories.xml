@@ -6,8 +6,8 @@
     <description lang="en">Various personal ebuilds</description>
     <homepage>https://github.com/erayd/overlay</homepage>
     <owner type="person">
-      <email>erayd@erayd.net</email>
-      <name>Erayd</name>
+      <email>steve@erayd.net</email>
+      <name>Steve Gilberd</name>
     </owner>
     <source type="git">https://github.com/erayd/overlay.git</source>
     <source type="git">git://github.com/erayd/overlay.git</source>
