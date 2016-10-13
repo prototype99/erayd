@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE repositories SYSTEM "http://www.gentoo.org/dtd/repositories.dtd">
 <repositories xmlns="" version="1.0">
-  <repo quality="experimental" status="unofficial">
+  <repo priority="50" quality="experimental" status="unofficial">
     <name>erayd</name>
     <description lang="en">Various personal ebuilds</description>
     <homepage>https://github.com/erayd/overlay</homepage>
