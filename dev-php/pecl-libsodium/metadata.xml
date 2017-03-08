@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>steve@erayd.net</email>
+		<name>Steve Gilberd</name>
+	</maintainer>
+	<upstream>
+		<maintainer status="active">
+			<email>github@pureftpd.org</email>
+			<name>Frank Denis</name>
+		</maintainer>
+		<remote-id type="github">jedisct1/libsodium-php</remote-id>
+	</upstream>
+	<longdescription lang="en">
+		PHP extension for libsodium
+	</longdescription>
+</pkgmetadata>
