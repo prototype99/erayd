@@ -3,8 +3,8 @@
 
 EAPI="6"
 DESCRIPTION="Graphical development / admin tool for many popular database engines."
-HOMEPAGE="http://dbeaver.jkiss.org/"
-SRC_URI="http://dbeaver.jkiss.org/files/${PV}/dbeaver-ce-${PV}-linux.gtk.x86_64.tar.gz"
+HOMEPAGE="http://dbeaver.io/"
+SRC_URI="http://dbeaver.io/files/${PV}/dbeaver-ce-${PV}-linux.gtk.x86_64.tar.gz"
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64"
@@ -17,17 +17,17 @@ src_install() {
 	insinto "/opt/${P}"
 	exeinto "/opt/${P}"
 	doins -r \
-		"artifacts.xml" \
+		"configuration" \
 		"dbeaver.desktop" \
 		"dbeaver.ini" \
 		"dbeaver.png" \
-		"icon.xpm" \
-		"readme.txt" \
-		"configuration" \
 		"features" \
+		"icon.xpm" \
 		"licenses" \
+		"META-INF" \
 		"p2" \
-		"plugins"
+		"plugins" \
+		"readme.txt"
 	doexe "dbeaver"
 	dosym "/opt/${P}/dbeaver" "/usr/bin/dbeaver"
 }
