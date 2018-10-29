@@ -24,7 +24,6 @@ src_install() {
 		"features" \
 		"icon.xpm" \
 		"licenses" \
-		"META-INF" \
 		"p2" \
 		"plugins" \
 		"readme.txt"
