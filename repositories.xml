@@ -9,9 +9,9 @@
       <email>steve@erayd.net</email>
       <name>Steve Gilberd</name>
     </owner>
-    <source type="git">https://github.com/erayd/overlay.git</source>
-    <source type="git">git://github.com/erayd/overlay.git</source>
-    <source type="git">git@github.com:erayd/overlay.git</source>
-    <feed>https://github.com/erayd/overlay/commits/master.atom</feed>
+    <source type="git">https://github.com/prototype99/erayd.git</source>
+    <source type="git">git://github.com/prototype99/erayd.git</source>
+    <source type="git">git@github.com:prototype99/erayd.git</source>
+    <feed>https://github.com/prototype99/erayd/commits/master.atom</feed>
   </repo>
 </repositories>
